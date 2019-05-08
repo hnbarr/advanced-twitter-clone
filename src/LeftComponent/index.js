@@ -8,7 +8,7 @@ export default class LeftComponent extends Component {
         <div className='left-top'>
             <div className='bioContainer'>
                 <section id='intro'>
-                    <i id='profile' className="far fa-grin-tongue fa-7x"></i>
+                    <i id='profile' className="far fa-grin-wink fa-7x"></i>
                     <div id='name'>
                         <p>Heather Barr</p>
                         <i>@hnbarr</i>

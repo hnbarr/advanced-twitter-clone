@@ -6,7 +6,7 @@ export default class MiddleComponent extends Component {
     return (
       <div className='middle'>
         <div className='middle-top'>
-            <i className="far fa-grin-tongue fa-3x"></i>
+            <i className="far fa-smile-wink fa-3x"></i>
             <form id='tweet'>
                 <input id='textBox' type='text' placeholder="What's happening?"></input>
                 <button id='addPhoto' type='submit'>

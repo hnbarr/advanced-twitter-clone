@@ -39,7 +39,7 @@ export default class NavComponent extends Component {
                 </button>
             </form>
             <div className='btnSection'>
-            <i className="far fa-grin-tongue fa-2x"></i>
+            <i className="far fa-grin-wink fa-2x"></i>
                 <button id='tweetBtn' type='submit'>
                 <i id='write' className="fas fa-signature"></i>
                     Tweet
