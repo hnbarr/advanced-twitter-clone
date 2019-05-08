@@ -5,11 +5,11 @@
 }     
 
 .left-top {
-    border: 1px solid orange;
+    border: 1px dashed orange;
     height: 50vh;
 }
 
 .left-bottom {
-    border: 1px solid red;
+    border: 1px dashed red;
     height: 50vh;
 }

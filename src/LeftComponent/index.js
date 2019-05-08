@@ -6,7 +6,7 @@ export default class LeftComponent extends Component {
     return (
       <div className='left'> 
         <div className='left-top'>
-            <i class="far fa-grin-tongue fa-7x"></i>
+            <i className="far fa-grin-tongue fa-7x"></i>
             <p>bio here!</p>
         </div>
     

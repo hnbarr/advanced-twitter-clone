@@ -5,11 +5,13 @@
 }     
 
 .middle-top {
-    border: 1px solid purple;
+    border: 1px dashed purple;
     height: 10vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .middle-bottom {
-    border: 1px solid blue;
+    border: 1px dashed blue;
     height: 90vh;
 }

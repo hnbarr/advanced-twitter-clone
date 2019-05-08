@@ -5,11 +5,11 @@
 }     
 
 .right-top {
-    border: 1px solid yellow;
+    border: 1px dashed yellow;
     height: 60vh;
 }
 
 .right-bottom {
-    border: 1px solid pink;
+    border: 1px dashed pink;
     height: 40vh;
 }
