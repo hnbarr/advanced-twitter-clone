@@ -5,13 +5,40 @@
 }     
 
 .middle-top {
-    border: 1px dashed purple;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
+    /* border: 1px dashed purple; */
+    height: 8vh;
 }
 
 .middle-bottom {
     border: 1px dashed blue;
-    height: 90vh;
+    height: 92vh;
+}
+
+/* adding tweets */
+
+.middle-top {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#textBox {
+    min-width: 500px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+#addPhoto {
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: skyblue;
+}
+
+#tweet {
+    border: 1px solid gray;
+    /* padding: 2px; */
 }
