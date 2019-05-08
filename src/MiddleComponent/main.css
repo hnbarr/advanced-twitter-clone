@@ -6,12 +6,12 @@
 
 .middle-top {
     /* border: 1px dashed purple; */
-    height: 8vh;
+    height: 10vh;
 }
 
 .middle-bottom {
     border: 1px dashed blue;
-    height: 92vh;
+    height: 90vh;
 }
 
 /* adding tweets */
