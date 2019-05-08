@@ -5,11 +5,62 @@
 }     
 
 .left-top {
-    border: 1px dashed orange;
-    height: 50vh;
+    /* border: 1px dashed orange; */
+    height: 40vh;
 }
 
 .left-bottom {
     border: 1px dashed red;
-    height: 50vh;
+    height: 60vh;
+}
+
+/* left-top */
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+}
+
+section .statCard {
+    width: calc(100% / 3);
+    /* border: 1px solid red; */
+}
+
+.bioContainer p {
+    font-size: 20px;
+    margin: 0;
+    padding: 3px 10px 15px 10px;
+    color: rgb(105, 134, 220);
+}
+
+h6{
+    font-size: 12px !important;
+    margin: 0;
+    padding: 5px;
+    color: grey;
+}
+
+.bioContainer {
+    padding: 20px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+#intro p {
+    font-size: 22px;
+    color: black !important;
+}
+
+#bio {
+    display: flex;
+    border: 1px dashed pink; 
+    padding: 10px;
 }

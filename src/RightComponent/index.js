@@ -6,11 +6,11 @@ export default class RightComponent extends Component {
     return (
       <div className='right'>
         <div className='right-top'>
-        <p>right-top</p>
+        <p>Who to Follow</p>
         </div>
     
         <div className='right-bottom'>
-        <p>right-bottom</p>
+        <p>Videos/Other Content</p>
         </div>
       </div>
     )

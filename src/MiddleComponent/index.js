@@ -16,7 +16,7 @@ export default class MiddleComponent extends Component {
       </div>
     
         <div className='middle-bottom'>
-        <p>middle-bottom</p>
+        <p>Twitter Feed</p>
         </div>
       </div>
     )

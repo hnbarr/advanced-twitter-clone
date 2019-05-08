@@ -6,12 +6,41 @@ export default class LeftComponent extends Component {
     return (
       <div className='left'> 
         <div className='left-top'>
-            <i className="far fa-grin-tongue fa-7x"></i>
-            <p>bio here!</p>
+            <div className='bioContainer'>
+                <section id='intro'>
+                    <i className="far fa-grin-tongue fa-7x"></i>
+                    <div id='name'>
+                        <p>Heather Barr</p>
+                        <i>@hnbarr</i>
+                    </div>
+                </section>
+                
+                <section id='stats'>
+                    <div id='tweets' className='statCard'>
+                        <h6>TWEETS</h6>
+                        <p>5</p>
+                    </div>
+                    <div id='following' className='statCard'>
+                        <h6>FOLLOWING</h6>
+                        <p>10</p>
+                    </div>
+                    <div id='followers' className='statCard'>
+                        <h6>FOLLOWERS</h6>
+                        <p>27</p>
+                    </div>
+                </section>
+            </div>
+            <div id='bio'>
+                <section id='about'>
+                    <h3> Bio </h3>
+                    <p>I can display the description of myself here!</p>
+                </section>
+            </div>
+            
         </div>
-    
+
         <div className='left-bottom'>
-        <p>left-bottom</p>
+            <p>Trending</p>
         </div>
       </div>
     )
